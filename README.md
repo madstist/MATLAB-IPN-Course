@@ -58,7 +58,7 @@ raining=0;      % define raining. Anything othern than 0 while defining a variab
 T<55|raining     % ask if T<55 or raining (which you set as 0), output will be an array of all 0 1x46
 
 
-2)char — single or array of alpha-numeric symbols ‘ ‘ % they are taken as individual entries in an array
+2)char — single or array of alpha-numeric symbols ‘ ‘    % they are taken as individual entries in an array
 Eg:X = ['ABC' 'CDE']
 
 X =    'ABCCDE
@@ -81,3 +81,27 @@ X =   3×1 string array
     "ABC"
     "CDE"
     "D"
+
+
+
+October 27, 2021  
+USEFUL RESOURCE:
+MATLAB Special charecters documentation
+MATLAB Technical documentation 
+
+We use round brackets for indexing. Or to CALL an element.       %Indexing into a matrix is a means of selecting a 
+                                                                  subset of elements from the matrix. 
+
+movefile      %to move files and folders from source to desitnation (see documentation). You can rename files with this.
+mkdir         % make new folder, subfolders
+load          % load files
+
+use these 2 together:
+imread('filename')    %Read image from graphics file
+imagesc('filename')   %display the image
+image ('filename')
+
+
+Questions to ask on October 28 session:
+
+1) when would you caturally use pwd? if we just use the command "cd" it gives the same output
